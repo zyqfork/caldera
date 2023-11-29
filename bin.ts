@@ -10,7 +10,7 @@ const { port: port_, timeout: timeout_, ...rest } = parse(Deno.args, {
     string: [ 'auth', 'crt', 'key' ],
     default: {
         port: {
-            http: 0,
+            http: 8080,
             https: 0,
         },
         timeout: 500, // milliseconds
